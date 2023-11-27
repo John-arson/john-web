@@ -25,17 +25,26 @@ function searchfor() {
 var liList = document.getElementById("searchdropdown").getElementsByTagName("li");
 var listcount = liList.length
 var prevScrollpos = window.pageYOffset;
+
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("toolbarheader").style.top = "0";
-    document.getElementById("search").style.top = "51px";
-  } else {
-    document.getElementById("toolbarheader").style.top = "-51px";
-    document.getElementById("search").style.top = "0";
-  }
-  prevScrollpos = currentScrollPos;
-} 
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) == false) {
+    scrollnavbar();
+   }
+}
 function show() {
   document.querySelectorAll(".search").forEach(a=>a.style.display = "block");
+}
+
+function scrollnavbar() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("toolbarheader").style.top = "0";
+      document.getElementById("search").style.top = "51px";
+      document.getElementById("leftmargin").style.top = "51px";
+    } else {
+      document.getElementById("toolbarheader").style.top = "-51px";
+      document.getElementById("search").style.top = "0";
+      document.getElementById("leftmargin").style.top = "0";
+    }
+    prevScrollpos = currentScrollPos;
 }

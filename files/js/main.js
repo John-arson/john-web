@@ -27,9 +27,9 @@ var listcount = liList.length
 var prevScrollpos = window.pageYOffset;
 
 window.onscroll = function() {
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) == false) {
+  if(/Mobi|Android/i.test(navigator.userAgent) == false) {
     scrollnavbar();
-   }
+  }
 }
 function show() {
   document.querySelectorAll(".search").forEach(a=>a.style.display = "block");

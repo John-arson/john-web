@@ -1,5 +1,5 @@
 .contrib {
-  margin-left: 150pt;
+  margin-left: 17%;
   margin-top: 28pt;
   margin-bottom: -36pt;
   margin-right: 0;
@@ -339,4 +339,12 @@ h4 {
     margin-top: 0px;
     margin-bottom: 1.8pt;
   }
+  .contrib {
+  margin-left: 4%;
+  margin-top: 28pt;
+  margin-bottom: -36pt;
+  margin-right: 0;
+  max-width: 192px;
+  height: auto;
+}
 }

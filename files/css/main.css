@@ -2,8 +2,8 @@
   margin-left: 17%;
   margin-top: 28pt;
   margin-bottom: -36pt;
-  margin-right: 0;
-  width: 192px;
+  margin-right: 4px;
+  max-width: 192px;
   height: auto;
 }
 #leftmargin {
@@ -343,7 +343,7 @@ h4 {
   margin-left: 4%;
   margin-top: 28pt;
   margin-bottom: -36pt;
-  margin-right: 0;
+  margin-right: 2px;
   max-width: 192px;
   height: auto;
 }

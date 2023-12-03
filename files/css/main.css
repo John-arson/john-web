@@ -314,8 +314,8 @@ h4 {
   }
   .bodydiv {
     margin-top: 48px;
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 0;
+    width: 100%;
     background-color: #fbfafd;
   }
   #search {

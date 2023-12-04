@@ -19,3 +19,5 @@ Replaced mobile detection
 Restored previous mobile detection
 Added Aaditya to the editors list
 Changed Aaditya's status on the ban list
+Reformatted directories
+Deleted README.txt

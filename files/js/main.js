@@ -27,9 +27,15 @@ var listcount = liList.length
 var prevScrollpos = window.pageYOffset;
 
 window.onscroll = function() {
-  if (/Android|Mobi|AppleWebKit|Safari|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent) == false) {
+  var hasTouchScreen = false;
+
+    if ("maxTouchPoints" in navigator) {
+      hasTouchScreen = navigator.maxTouchPoints > 0;
+  } 
+
+  if (hasTouchScreen) {
     scrollnavbar();
-}
+  }
 }
 function show() {
   document.querySelectorAll(".search").forEach(a=>a.style.display = "block");

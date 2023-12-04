@@ -1,1 +1,1 @@
-DirectoryIndex /files /html /index.htm
+Redirect /index.html /files/html/index.htm

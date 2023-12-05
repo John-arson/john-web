@@ -1,1 +1,1 @@
-Redirect /index.html /index.htm
+RewriteRule ^$ /files/html/index.htm [R=301,L]

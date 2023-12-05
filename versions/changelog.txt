@@ -27,4 +27,6 @@ Updated loading page (index.html)
 Updated contributors list
 Updated examples
 Updated lore
-added 404.md
+Added 404.md
+Minor changes and corrections
+Added new factions

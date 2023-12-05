@@ -21,3 +21,4 @@ Added Aaditya to the editors list
 Changed Aaditya's status on the ban list
 Reformatted directories
 Deleted README.txt
+Many changes to formatting and things that are difficult to track due to the majority of files being changed

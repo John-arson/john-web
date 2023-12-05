@@ -1,4 +1,4 @@
-fetch('html/search.html')
+fetch('https://shio-rin.github.io/john-web/files/js/templates/html/search.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#replace_with_search");

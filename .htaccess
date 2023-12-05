@@ -1,1 +1,0 @@
-RewriteRule ^$ files/html/index.htm [L]

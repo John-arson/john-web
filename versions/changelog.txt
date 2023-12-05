@@ -23,3 +23,8 @@ Reformatted directories
 Deleted README.txt
 Many changes to formatting and things that are difficult to track due to the majority of files being changed
 Updated loading page (index.html)
+12/5/23
+Updated contributors list
+Updated examples
+Updated lore
+added 404.md

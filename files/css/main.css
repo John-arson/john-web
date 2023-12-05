@@ -222,7 +222,7 @@ h3 {
   font-size: 12pt;
   color: #141414;
   display: inline;
-  text-indent: 12pt;
+  text-indent: 0;
 }
 h4 {
   font-family: nunito;

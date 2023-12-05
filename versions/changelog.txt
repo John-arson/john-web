@@ -30,3 +30,7 @@ Updated lore
 Added 404.md
 Minor changes and corrections
 Added new factions
+Added version number to directory.htm
+Removed version number from directory.htm
+Changed 404.md into 404.html
+Fixed an error in index.html and 404.html

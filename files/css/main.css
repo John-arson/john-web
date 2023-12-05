@@ -3,7 +3,6 @@
   margin-top: 28pt;
   margin-bottom: 0;
   margin-right: 4px;
-  text-indent: 24pt;
   max-width: 192px;
   height: auto;
 }
@@ -215,14 +214,15 @@ h3 {
 .contribtext {
   font-family: nunito;
   text-decoration: underline;
-  margin-left: 4px;
+  margin-left: 17%;
   margin-right: 17%;
   text-align: left;
-  margin-top: 14pt;
-  margin-bottom: 2.1pt;
-  font-size: 14pt;
+  margin-top: 12pt;
+  margin-bottom: 1.8pt;
+  font-size: 12pt;
   color: #141414;
   display: inline;
+  text-indent: 12pt;
 }
 h4 {
   font-family: nunito;

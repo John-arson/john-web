@@ -12,10 +12,14 @@
 </head>
 <!--bodystart-->
 <body style="background-color:#c2b4d8;margin:0;margin-top:0px;" onload="searchfor(); show();">
-<script id="replace_with_search" src="https://shio-rin.github.io/john-web/files/js/templates/search.js"></script>
+<?
+php include '../files/js/templates/php/nav.php';
+?>
 <div id="leftmargin" style="margin-top: 10px;">
 </div>
-<script id="replace_with_navbar" src="https://shio-rin.github.io/john-web/files/js/templates/nav.js"></script>
+<?
+php include '../files/js/templates/php/search.php';
+?>
 <div style="margin-top:48px;margin-left:20%;width:60%;background-color:#fbfafd;">
 <br><br>
 <h2>BACKUPS</h2>

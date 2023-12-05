@@ -1,1 +1,1 @@
-Redirect 301 /john-web/ http://shio-rin.github.io/john-web/files/html/index.htm
+Redirect 301 /john-web/index.html http://shio-rin.github.io/john-web/files/html/index.htm

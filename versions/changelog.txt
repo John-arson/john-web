@@ -36,4 +36,9 @@ Changed 404.md into 404.html
 Fixed an error in index.html and 404.html
 Added News section to index.htm
 12/6/23
+Added new image
 Updated contributors.htm
+Added content to rules.htm
+Added rules.htm to search of a few pages
+Added rules.htm to directory
+Added prophecy.htm to directory
